@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // o print vowels in a string
+
+var b="akhila";
+for(i=0;i<b.length;i++){
+  if(b[i]=="a"|| b[i]=="e" ||b[i]=="i"||b[i]=="o"||b[i]=="u")  
+  console.log(b[i])
+}
+// output= aia
+====================================================
+
+// to print even numbers in string
+var a="rohith"
+b=""
+for(i=0;i<a.length;i++){
+    if(i%2!=0)
+    b=b+" "+a[i]
+}
+ console.log(b)
+//  output = o i h
+ ====================================================
+
+// to print odd numbers in strings using functions and terinary operator
+ function str(){
+var a="akhila";
+b=a%2==0? "even": "odd";
+console.log(b)
+}
+(str())
+//  output = odd
+====================================================
+// to print vowels in strings using functions
+function str(){
+var name="deepika";
+for(i=0;i<name.length;i++){
+    if(name[i]=="a"||name[i]=="e"||name[i]=="i"||name[i]=="o"||name[i]=="u"){
+     console.log(name[i])   
+    }
+}
+}
+str()
+// output=
+// e
+// e
+// i
+// a
+================================================
+// to print vowels in strings using functions and terinary operator
+
+  </script>
+</body>
+</html>
